@@ -28,6 +28,7 @@
 }
 
 .main {
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -165,4 +166,23 @@ a.secondary {
   .logo {
     filter: invert();
   }
+}
+
+.title {
+  font-family: var(--font-propaganda);
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-family: var(--font-propaganda);
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  color: #999;
 }
