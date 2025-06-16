@@ -109,6 +109,30 @@ a.secondary {
   flex-shrink: 0;
 }
 
+.title {
+  font-family: var(--font-propaganda);
+  font-size: 4rem;
+  line-height: 1.1;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  font-family: var(--font-propaganda);
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  color: #999;
+}
+
+.copy {
+  font-size: 12px;
+  color: #999
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   a.primary:hover {
@@ -159,6 +183,11 @@ a.secondary {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
+  }
+
+  .title {
+    font-size: 2rem;
   }
 }
 
@@ -166,23 +195,4 @@ a.secondary {
   .logo {
     filter: invert();
   }
-}
-
-.title {
-  font-family: var(--font-propaganda);
-  font-size: 4rem;
-  line-height: 1.1;
-  font-weight: 400;
-  margin: 0;
-  text-align: center;
-  letter-spacing: -0.02em;
-}
-
-.subtitle {
-  font-family: var(--font-propaganda);
-  font-size: 1.8rem;
-  font-weight: 400;
-  margin: 0;
-  text-align: center;
-  color: #999;
 }

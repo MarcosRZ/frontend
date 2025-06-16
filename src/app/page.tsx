@@ -17,7 +17,7 @@ export default function Home() {
         <h2 className={styles.subtitle}>1989 - 2025</h2>
       </main>
       <footer className={styles.footer}>
-        &copy; {new Date().getFullYear()} Sucaro Industries. All rights reserved.
+        <p className={styles.copy}>&copy; {new Date().getFullYear()} Sucaro Industries. All rights reserved.</p>
       </footer>
     </div>
   );
